@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>添加视频</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <h1>添加视频到曲库</h1>
+    <div id="videoList" class="mb-2">您还未选择任何视频文件</div>
+    <button type="button" id="select-video-button" class="btn btn-outline-primary btn-lg btn-block mt-4">
+      选择视频
+    </button>
+    <button type="button" id="add-video-button" class="btn btn-primary btn-lg btn-block mt-4">
+      导入视频
+    </button>
+  </div>
+  <script>
+    require('./add.js')
+  </script>
+</body>
+
+</html>

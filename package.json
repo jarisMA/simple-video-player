@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch ./** --exec 'electron .'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jarisMA",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "electron-store": "^6.0.1",
+    "uuid": "^8.3.1",
+    "xgplayer": "^2.13.0"
+  }
+}
